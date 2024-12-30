@@ -1,0 +1,32 @@
+.box{
+    font-family: sans-serif;
+    h1{
+        text-align: center;
+    }
+    hr{
+        width: 20vw;
+    }
+  .form{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    label{
+      font-size:18px;
+    }
+    input{
+        height: 30px;
+        width: 20vw;
+    }
+    
+  }
+  button{
+    margin: 5px;
+    border: 10px;
+    border-radius: 10px;
+    padding:10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+}

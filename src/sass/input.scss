@@ -1,0 +1,37 @@
+.table{
+    padding: 30px;
+    text-align: center;
+    background: #be9696;
+    color: white;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    .add{
+        a{
+            text-decoration: none;
+            border: solid 2px black;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: rgb(35, 224, 9);
+            color: white;
+        }
+    }
+    th{
+        padding: 10px;
+    }
+    td{
+        padding: 10px;
+        button{
+            margin: 5px;
+            border: 10px;
+            padding:10px;
+            background-color: green;
+            color: white;
+            cursor: pointer;
+        }
+        .dlt{
+            background-color: red;
+        }
+    }
+    
+}
